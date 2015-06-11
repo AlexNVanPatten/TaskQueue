@@ -1,5 +1,5 @@
 # TaskQueue
-This repository contains a simplistic TaskQueue which stores Tasks, which themselves store command line arguments that can be executed. The aftermath of running a Task is stored in a TaskResult, and all task results in a given session are stored within TaskResults. Next I will explain what functions each file has.
+Written in Python 2.7.10. This repository contains a simplistic TaskQueue which stores Tasks, which themselves store command line arguments that can be executed. The aftermath of running a Task is stored in a TaskResult, and all task results in a given session are stored within TaskResults. Next I will explain what functions each file has.
 
 ##Task.py
 A task is created with Task(description, command) and has fields as follows
